@@ -1,0 +1,23 @@
+.profile__author-about{
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-top: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 294px;
+}
+
+
+@media screen and (max-width: 660px){
+  .profile__author-about{
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+  }
+}

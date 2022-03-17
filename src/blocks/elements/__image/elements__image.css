@@ -1,0 +1,11 @@
+.elements__image {
+  width: 282px;
+  min-height: 282px;
+  max-height: 282px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.elements__image:hover{
+  opacity: 0.6;
+}

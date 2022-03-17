@@ -1,0 +1,9 @@
+.elements__item{
+  width: 100%;
+  background-color: #FFFFFF;
+  list-style-type: none;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  max-height: 361px;
+}

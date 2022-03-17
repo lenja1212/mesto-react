@@ -1,0 +1,37 @@
+.header{
+  margin: 0 auto 0;
+  border-bottom: 1px solid #545454;
+  max-width: 880px;
+  padding-top: 45px;
+  padding-bottom: 41px;
+}
+
+@media screen and (min-width: 1280px){
+  .header{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .header{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 660px){
+  .header{
+    max-width: 100%;
+    padding-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px; 
+  }
+}
+
+@media screen and (max-width: 425px){
+  .header{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.title-input-error{
+  position: absolute;
+  top: 148px;
+  left: 36px;
+}
+
+@media screen and (max-width: 660px) {
+  .title-input-error{
+    position: absolute;
+    top: 153px;
+    left: 22px;
+  }
+}

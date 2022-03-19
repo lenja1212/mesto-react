@@ -1,6 +1,4 @@
 function ImagePopup(props){
-    console.log("Props :", props)
-    console.log("Props_card :", props.card)
   return(
     <div className={`popup popup_format_image" ${props.card ? "popup_visible" : ""}`}>
       <div className="popup__container">

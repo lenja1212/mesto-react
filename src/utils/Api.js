@@ -4,22 +4,9 @@ export class Api{
     this._headers = this._options.headers;
     this._token = this._headers.authorization;
   }
+  
   getCardId(id){
     this._cardId = id;
-  }
-
-  getCardIdServer(){
-    return fetch('https://mesto.nomoreparties.co/v1/cohort36/cards', {
-        headers: {
-          authorization: this._token
-        }
-      })
-      .then((res) =>{
-        if (res.ok) {
-          return res.json();
-        }
-        return Promise.reject(`Ошибка: ${res.status}`);
-      }) 
   }
 
   getInitialCards() {

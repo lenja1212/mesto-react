@@ -47,6 +47,7 @@ function Main(props) {
         {
           cards.map((card) =>
             <Card
+              key={card._id}
               card={card}
               link={card.link}
               name={card.name}
